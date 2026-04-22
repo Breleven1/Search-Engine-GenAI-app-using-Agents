@@ -20,7 +20,7 @@ wiki = WikipediaQueryRun(api_wrapper=wiki_wrapper)
 arxiv_wrapper = ArxivAPIWrapper(top_k_results=1, doc_content_chars_max=200)
 arxiv = ArxivQueryRun(api_wrapper=arxiv_wrapper)
 
-# DuckDuckGo Search Tool
+# DuckDuckGo Search Tool #A
 search = DuckDuckGoSearchRun(name="Search")
 
 tools = [search, arxiv, wiki]
